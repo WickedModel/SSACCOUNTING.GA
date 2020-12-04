@@ -4,7 +4,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  background: cornflowerblue;
+  background: url("https://www.servi-star.com/wp-content/uploads/2015/09/Accounting-Dark.jpg") no-repeat center;
 }
 .center{
   display: flex;
@@ -23,15 +23,15 @@ body{
 @keyframes ring {
   0%{
     transform: rotate(0deg);
-    box-shadow: 1px 5px 2px rgb(38, 70, 129);
+    box-shadow: 1px 5px 2px white;
   }
   50%{
     transform: rotate(180deg);
-    box-shadow: 1px 5px 2px rgb(38, 70, 129);
+    box-shadow: 1px 5px 2px white;
   }
   100%{
     transform: rotate(360deg);
-    box-shadow: 1px 5px 2px rgb(38, 70, 129);
+    box-shadow: 1px 5px 2px white;
   }
 }
 .ring:before{
@@ -45,7 +45,7 @@ body{
   box-shadow: 0 0 5px rgba(255,255,255,.3);
 }
 span{
-  color: rgb(38, 70, 129);
+  color: white;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -54,6 +54,6 @@ span{
 }
 @keyframes text {
   50%{
-    color: cornflowerblue;
+    color: white;
   }
 }
