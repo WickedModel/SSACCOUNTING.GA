@@ -8,6 +8,21 @@ body{
   background-size: cover;
   background-attachment: fixed;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: cornflowerblue;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(64, 107, 185);
+}
+
 .center{
   display: flex;
   text-align: center;
