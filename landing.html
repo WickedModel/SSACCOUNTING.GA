@@ -132,8 +132,13 @@
                                 <input name="email" type="email" placeholder="Email" required>
                             </div>
                         </div>
-                        <div class="field">
-                            <input name="services" type="text" placeholder="Service You Need" required>
+                        <div class="custom-select" style="width:200px;">
+                          <select name="service" required>
+                            <option value="0">Select Service</option>
+                            <option value="1">Bookkeeping</option>
+                            <option value="2">Individual Tax</option>
+                            <option value="3">Business Tax</option>
+                          </select>
                         </div>
                         <div class="field textarea">
                             <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
