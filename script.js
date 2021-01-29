@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["The CEO and Founder of SS Accounting", "an Accountant", "a CPA Finalist", "a Tax-professional", "a Hard-worker"],
+        strings: ["A Clothing Designer", "A Builder", "A Programmer", "A Hard-worker"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["The CEO and Founder of SS Accounting", "an Accountant", "a CPA Finalist", "a Tax-professional", "a Hard-worker"],
+        strings: ["A Clothing Designer", "A Builder", "A Programmer", "A Hard-worker"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
