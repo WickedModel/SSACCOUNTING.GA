@@ -19,11 +19,11 @@ html{
     background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: cornflowerblue;
+    background: orange;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(64, 107, 185);
+    background: orangered;
 }
 
 /* all similar content styling codes */
@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: cornflowerblue;
+    color: orange;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: cornflowerblue;
+    background: orange;
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: cornflowerblue;
+    color: orange;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -120,7 +120,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: cornflowerblue;
+    color: orange;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: cornflowerblue;
+    background: orange;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://www.servi-star.com/wp-content/uploads/2015/09/Accounting-Dark.jpg") no-repeat center;
+    background: url("https://wallpapercave.com/wp/wp2119475.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -189,23 +189,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: cornflowerblue;
+    color: orange;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: cornflowerblue;
+    background: orange;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid cornflowerblue;
+    border: 2px solid orange;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: cornflowerblue;
+    color: orange;
     background: none;
 }
 
@@ -231,25 +231,25 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: cornflowerblue;
+    color: orange;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: cornflowerblue;
+    background: orange;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid cornflowerblue;
+    border: 2px solid orange;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: cornflowerblue;
+    color: orange;
     background: none;
 }
 
@@ -277,7 +277,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: cornflowerblue;
+    background: orange;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -287,7 +287,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: cornflowerblue;
+    color: orange;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -317,18 +317,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: cornflowerblue;
+    background: orange;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid cornflowerblue;
+    border: 2px solid orange;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: cornflowerblue;
+    color: orange;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -356,7 +356,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: cornflowerblue;
+    background: orange;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -389,7 +389,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: cornflowerblue;
+    background: orange;
 }
 .teams .carousel .card .box{
     display: flex;
@@ -411,7 +411,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid cornflowerblue;
+    border: 5px solid orange;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -427,7 +427,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid cornflowerblue!important;
+    border: 2px solid orange!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -436,7 +436,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: cornflowerblue!important;
+    background: orange!important;
 }
 
 /* contact section styling */
@@ -467,7 +467,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: cornflowerblue;
+    color: orange;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -521,8 +521,8 @@ section .title::after{
 .contact .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid cornflowerblue;
-    background: cornflowerblue;
+    border: 2px solid orange;
+    background: orange;
     color: #fff;
     outline: none;
     font-size: 20px;
@@ -532,7 +532,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color: cornflowerblue;
+    color: orange;
     background: none;
 }
 
@@ -544,7 +544,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: cornflowerblue;
+    color: orange;
     text-decoration: none;
 }
 footer span a:hover{
@@ -695,7 +695,7 @@ footer span a:hover{
 }
 
 .select-selected {
-  background-color: cornflowerblue;
+  background-color: orange;
   border-radius: 6px;
   font-family: 'Poppins', sans-serif;
 }
@@ -732,7 +732,7 @@ footer span a:hover{
 /*style items (options):*/
 .select-items {
   position: absolute;
-  background-color: cornflowerblue;
+  background-color: orange;
   top: 100%;
   left: 0;
   right: 0;
